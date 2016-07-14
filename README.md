@@ -7,7 +7,24 @@ This package is wrapper of [idempierewsc-java](https://github.com/sauljabin/idem
 ## Maven
 
 ```xml
-xxx
+<dependencies>
+  <dependency>
+    <groupId>com.github.asufana</groupId>
+    <artifactId>idempiere-java-webclient</artifactId>
+    <version>1.0</version>
+  </dependency>
+</dependencies>
+
+<repositories>
+    <repository>
+        <id>asufana</id>
+        <url>https://raw.github.com/asufana/idempiere-java-webclient/mvn-repo/</url>
+        <snapshots>
+            <enabled>true</enabled>
+            <updatePolicy>always</updatePolicy>
+        </snapshots>
+    </repository>
+</repositories>
 ```
 
 
