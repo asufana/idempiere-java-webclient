@@ -30,7 +30,7 @@
 					<source>${java.version}</source>
 					<target>${java.version}</target>
 					<!-- disable annotation processing -->
-					<compilerArgument>-proc:none</compilerArgument>
+					<!-- <compilerArgument>-proc:none</compilerArgument> -->
 				</configuration>
 			</plugin>
 			<plugin>
