@@ -6,6 +6,8 @@ This package is wrapper of [idempierewsc-java](https://github.com/sauljabin/idem
 
 ## Maven
 
+Get .jar from github.
+
 ```xml
 <dependencies>
   <dependency>
@@ -25,6 +27,18 @@ This package is wrapper of [idempierewsc-java](https://github.com/sauljabin/idem
         </snapshots>
     </repository>
 </repositories>
+```
+
+and you need to add a below library.
+
+```xml
+<dependency>
+  <groupId>org.idempiere.webservice</groupId>
+  <artifactId>idempierewsc-java</artifactId>
+  <version>1.0</version>
+  <scope>system</scope>
+  <systemPath>${basedir}/exlib/idempierewsc.jar</systemPath>
+</dependency>
 ```
 
 
@@ -215,6 +229,4 @@ public class BPartnerRepoTest {
 You use 2pack to copy WebServiceType. 
 
 -   `sample/C_BPartner_2Pack.zip` 
-
-
 
